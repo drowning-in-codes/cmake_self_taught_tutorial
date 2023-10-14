@@ -1,0 +1,4 @@
+https://zhuanlan.zhihu.com/p/82244559
+target_include_directories(MathFunctions INTERFACE ${CMAKE_CURRENT_SOURCE_DIR})
+INTERFACE 生成的库MathFunctions本身不使用需要的头文件，但是链接这个库的程序需要使用头文件所对应的库
+这样生成的库,其他可执行程序或者库链接它会引入头文件

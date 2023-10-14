@@ -1,4 +1,5 @@
 [CMake Tutorial — CMake 3.28.0-rc1 Documentation](https://cmake.org/cmake/help/latest/guide/tutorial/index.html)官方tutorial
+
 在Windows上开发c++相比Linux还是有点不方便,这里介绍CMake,跨平台的构建工具.
 
 在Windows上可选择的构建后端有vs,codeblocks这种软件的文件结构,或者单纯的Makefiles以及Ninja.相当于忽略了几个项目构建的差异.

@@ -1,0 +1,24 @@
+# build basic project
+cmake_minimum_required(VERSION 3.12)
+project(tutorial_1 VERSION 1.0)
+add_executable(tutorial_1 tutorial.cxx)
+
+# configure file
+configure_file(tutorial.h.in tutorial.h)
+
+# set C++ standard
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED True)
+MESSAGE(STATUS "Configure project ${PROJECT_BINARY_DIR}")
+target_include_directories(tutorial_1 PUBLIC
+    "${PROJECT_BINARY_DIR}"
+)   
+
+# 使用INTERFACE继承include,连接这个库的目标也会继承这个include(但这个目标本身不使用这个include)
+target_include_directories(MathFunctions INTERFACE ${CMAKE_CURRENT_SOURCE_DIR})
+
+add_library(tutorial_compiler_flags INTERFACE)
+target_compile_features(tutorial_compiler_flags INTERFACE cxx_std_17)
+target_link_libraries(tutorial_1 MathFunctions tutorial_compiler_flags)
+
+

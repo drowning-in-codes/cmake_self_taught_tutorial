@@ -1,0 +1,16 @@
+# build basic project
+cmake_minimum_required(VERSION 3.12)
+project(MathFunction VERSION 1.0)
+
+# add_library(MathFunctions mysqrt.cpp)
+include_directories(${PROJECT_BINARY_DIR})
+
+option(USE_MYMATH "The tutorial uses my math implementation" ON)
+if (USE_MYMATH)
+    target_compile_definitions(tutorial_1 PUBLIC "USE_MYMATH")
+endif
+add_library(SqrtLibrary STATIC
+              mysqrt.cpp)
+
+target_link_libraries(MathFunctions PRIVATE SqrtLibrary)
+add_library(MathFunctions MathFunctions.cpp)
