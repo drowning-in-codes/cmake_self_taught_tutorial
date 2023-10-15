@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "tutorial_1.dir\\Debug\\std.ixx.obj",
+            "outputs": [
+                "D:\\cmake_practice\\step1\\build\\tutorial_1.dir\\Debug\\vc143.pdb",
+                "tutorial_1.dir\\Debug\\",
+                "D:\\cmake_practice\\step1\\build\\tutorial_1.dir\\Debug\\std.ixx.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "std",
+                    "source-path": "d:\\visual studio\\vc\\tools\\msvc\\14.36.32532\\modules\\std.ixx",
+                    "is-interface": true
+                }
+            ],
+            "requires": []
+        }
+    ]
+}

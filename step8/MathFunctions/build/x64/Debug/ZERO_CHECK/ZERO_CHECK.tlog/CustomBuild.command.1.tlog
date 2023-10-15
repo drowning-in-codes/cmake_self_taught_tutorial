@@ -1,0 +1,10 @@
+^D:\CMAKE_PRACTICE\STEP8\MATHFUNCTIONS\BUILD\CMAKEFILES\148EDADFD88DD086E7DA354A851B2188\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/cmake_practice/step8/MathFunctions -BD:/cmake_practice/step8/MathFunctions/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/cmake_practice/step8/MathFunctions/build/MathFunction.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

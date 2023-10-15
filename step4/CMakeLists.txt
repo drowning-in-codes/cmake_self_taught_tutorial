@@ -24,8 +24,8 @@ target_link_libraries(tutorial_1 MathFunctions tutorial_compiler_flags)
 
 
 set(gcc_like_cxx "$<COMPILE_LANG_AND_ID:CXX,ARMClang,AppleClang,Clang,GNU,LCC>")
-set(msvc_cxx,"$<COMPILE_LANG_AND_ID:CXX,MSVC>")
-
+set(msvc_cxx "$<COMPILE_LANG_AND_ID:CXX,MSVC>")
+MESSAGE(STATUS "msvc_cxx" "${COMPILE_LANG_AND_ID}")
 # target_compile_options(tutorial_compiler_flags INTERFACE
 #   "$<${gcc_like_cxx}:-Wall;-Wextra;-Wshadow;-Wformat=2;-Wunused>"
 #   "$<${msvc_cxx}:-W3>"

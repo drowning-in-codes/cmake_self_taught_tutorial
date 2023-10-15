@@ -15,6 +15,6 @@ target_compile_features(tutorial_compiler_flags INTERFACE cxx_std_11)
 add_library(SqrtLibrary STATIC
               mysqrt.cpp)           
 target_link_libraries(MathFunctions PRIVATE SqrtLibrary)
-add_library(MathFunctions MathFunctions.cpp)
-target_link_library(SqrtLibrary PUBLIC tutorial_compiler_flags)
+target_link_libraries(SqrtLibrary PUBLIC tutorial_compiler_flags)
 target_link_libraries(MathFunctions PUBLIC tutorial_compiler_flags)
+add_library(MathFunctions MathFunctions.cpp)

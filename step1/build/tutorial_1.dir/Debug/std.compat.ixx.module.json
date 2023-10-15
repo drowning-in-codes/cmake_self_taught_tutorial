@@ -1,0 +1,26 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "tutorial_1.dir\\Debug\\std.compat.ixx.obj",
+            "outputs": [
+                "D:\\cmake_practice\\step1\\build\\tutorial_1.dir\\Debug\\vc143.pdb",
+                "tutorial_1.dir\\Debug\\",
+                "D:\\cmake_practice\\step1\\build\\tutorial_1.dir\\Debug\\std.compat.ixx.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "std.compat",
+                    "source-path": "d:\\visual studio\\vc\\tools\\msvc\\14.36.32532\\modules\\std.compat.ixx",
+                    "is-interface": true
+                }
+            ],
+            "requires": [
+                {
+                    "logical-name": "std"
+                }
+            ]
+        }
+    ]
+}

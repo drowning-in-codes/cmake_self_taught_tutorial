@@ -1,0 +1,10 @@
+^D:\CMAKE_PRACTICE\STEP6\BUILD\CMAKEFILES\CE16B086E6DBD07D8CB6B0463727D29A\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/cmake_practice/step6 -BD:/cmake_practice/step6/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/cmake_practice/step6/build/tutorial_1.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
