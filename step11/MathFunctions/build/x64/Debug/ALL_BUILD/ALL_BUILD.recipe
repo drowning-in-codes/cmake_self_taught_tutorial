@@ -2,13 +2,16 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>D:\cmake_practice\step8\MathFunctions\build\x64\Debug\ZERO_CHECK</FullPath>
+      <FullPath>D:\cmake_practice\step11\MathFunctions\build\x64\Debug\ZERO_CHECK</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>D:\cmake_practice\step8\MathFunctions\build\Debug\MakeTable.exe</FullPath>
+      <FullPath>D:\cmake_practice\step11\MathFunctions\build\Debug\MakeTable.exe</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>D:\cmake_practice\step8\MathFunctions\build\x64\Debug\ALL_BUILD</FullPath>
+      <FullPath>D:\cmake_practice\step11\MathFunctions\build\Debug\MathFunctions.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\cmake_practice\step11\MathFunctions\build\x64\Debug\ALL_BUILD</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

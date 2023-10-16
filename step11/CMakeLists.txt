@@ -3,6 +3,7 @@ cmake_minimum_required(VERSION 3.15)
 project(tutorial_1 VERSION 1.0)
 include(CTest)
 include(CheckCXXSourceCompiles)
+include(CMakePackageConfigHelpers)
 
 set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY "${PROJECT_BINARY_DIR}")
 set(CMAKE_LIBRARY_OUTPUT_DIRECTORY  "${PROJECT_BINARY_DIR}")
@@ -25,10 +26,17 @@ int main() {
 }
 " HAVE_EXP)
 
-if (HAVE_LOG AND HAVE_EXP)
-    target_compile_definitions(tutorial_1 PRIVATE "HAVE_LOG" "HAVE_EXP")
 
+# MESSAGE(STATUS "${CMAKE_CURRENT_LIST_DIR}")
+if (HAVE_LOG AND HAVE_EXP)
+    # target_compile_definitions(tutorial_1 PRIVATE "HAVE_LOG" "HAVE_EXP")
+endif()
 add_executable(tutorial_1 tutorial.cxx)
+
+
+
+
+
 
 # configure file
 # configure_file(tutorial.h.in tutorial.h)

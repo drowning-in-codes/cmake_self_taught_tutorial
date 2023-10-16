@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{EE335631-F696-3E1B-B6C7-EA48F89AC0D3}</ProjectGuid>
+    <ProjectGuid>{26A4E78D-9575-3756-B3D9-8FD5B42050D8}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -59,26 +59,26 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\cmake_practice\step8\MathFunctions\build\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\cmake_practice\step11\MathFunctions\build\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">SqrtLibrary.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">SqrtLibrary</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\cmake_practice\step8\MathFunctions\build\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\cmake_practice\step11\MathFunctions\build\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">SqrtLibrary.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">SqrtLibrary</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\cmake_practice\step8\MathFunctions\build\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\cmake_practice\step11\MathFunctions\build\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">SqrtLibrary.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">SqrtLibrary</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\cmake_practice\step8\MathFunctions\build\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\cmake_practice\step11\MathFunctions\build\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">SqrtLibrary.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">SqrtLibrary</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\cmake_practice\step8\MathFunctions\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\cmake_practice\step11\MathFunctions\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -95,10 +95,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\cmake_practice\step8\MathFunctions\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\cmake_practice\step11\MathFunctions\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\cmake_practice\step8\MathFunctions\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\cmake_practice\step11\MathFunctions\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -111,7 +111,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\cmake_practice\step8\MathFunctions\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\cmake_practice\step11\MathFunctions\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
@@ -128,10 +128,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\cmake_practice\step8\MathFunctions\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\cmake_practice\step11\MathFunctions\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\cmake_practice\step8\MathFunctions\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\cmake_practice\step11\MathFunctions\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -144,7 +144,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\cmake_practice\step8\MathFunctions\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\cmake_practice\step11\MathFunctions\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
@@ -161,10 +161,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\cmake_practice\step8\MathFunctions\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\cmake_practice\step11\MathFunctions\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\cmake_practice\step8\MathFunctions\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\cmake_practice\step11\MathFunctions\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -177,7 +177,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\cmake_practice\step8\MathFunctions\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\cmake_practice\step11\MathFunctions\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -193,10 +193,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\cmake_practice\step8\MathFunctions\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\cmake_practice\step11\MathFunctions\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\cmake_practice\step8\MathFunctions\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\cmake_practice\step11\MathFunctions\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -208,67 +208,11 @@
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\cmake_practice\step8\MathFunctions\build\CMakeFiles\a0ba56837dd10cac0b09c2cb92798c05\Table.h.rule">
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating Table.h</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-Debug\MakeTable.exe D:/cmake_practice/step8/MathFunctions/build/Table.h
-if %errorlevel% neq 0 goto :cmEnd
-:cmEnd
-endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
-:cmErrorLevel
-exit /b %1
-:cmDone
-if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\cmake_practice\step8\MathFunctions\build\Debug\MakeTable.exe;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\cmake_practice\step8\MathFunctions\build\Table.h</Outputs>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating Table.h</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-Release\MakeTable.exe D:/cmake_practice/step8/MathFunctions/build/Table.h
-if %errorlevel% neq 0 goto :cmEnd
-:cmEnd
-endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
-:cmErrorLevel
-exit /b %1
-:cmDone
-if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\cmake_practice\step8\MathFunctions\build\Release\MakeTable.exe;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\cmake_practice\step8\MathFunctions\build\Table.h</Outputs>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating Table.h</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-MinSizeRel\MakeTable.exe D:/cmake_practice/step8/MathFunctions/build/Table.h
-if %errorlevel% neq 0 goto :cmEnd
-:cmEnd
-endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
-:cmErrorLevel
-exit /b %1
-:cmDone
-if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\cmake_practice\step8\MathFunctions\build\MinSizeRel\MakeTable.exe;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\cmake_practice\step8\MathFunctions\build\Table.h</Outputs>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating Table.h</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-RelWithDebInfo\MakeTable.exe D:/cmake_practice/step8/MathFunctions/build/Table.h
-if %errorlevel% neq 0 goto :cmEnd
-:cmEnd
-endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
-:cmErrorLevel
-exit /b %1
-:cmDone
-if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\cmake_practice\step8\MathFunctions\build\RelWithDebInfo\MakeTable.exe;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\cmake_practice\step8\MathFunctions\build\Table.h</Outputs>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
-    </CustomBuild>
-  </ItemGroup>
-  <ItemGroup>
-    <CustomBuild Include="D:\cmake_practice\step8\MathFunctions\CMakeLists.txt">
+    <CustomBuild Include="D:\cmake_practice\step11\MathFunctions\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/cmake_practice/step8/MathFunctions/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/cmake_practice/step11/MathFunctions/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SD:/cmake_practice/step8/MathFunctions -BD:/cmake_practice/step8/MathFunctions/build --check-stamp-file D:/cmake_practice/step8/MathFunctions/build/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/cmake_practice/step11/MathFunctions -BD:/cmake_practice/step11/MathFunctions/build --check-stamp-file D:/cmake_practice/step11/MathFunctions/build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -276,12 +220,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\WindowsPaths.cmake;D:\cmake_practice\step8\MathFunctions\MakeTable.cmake;D:\cmake_practice\step8\MathFunctions\build\CMakeFiles\3.27.4\CMakeCCompiler.cmake;D:\cmake_practice\step8\MathFunctions\build\CMakeFiles\3.27.4\CMakeCXXCompiler.cmake;D:\cmake_practice\step8\MathFunctions\build\CMakeFiles\3.27.4\CMakeRCCompiler.cmake;D:\cmake_practice\step8\MathFunctions\build\CMakeFiles\3.27.4\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\cmake_practice\step8\MathFunctions\build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.27\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\WriteBasicConfigVersionFile.cmake;D:\cmake_practice\step11\MathFunctions\Config.cmake.in;D:\cmake_practice\step11\MathFunctions\MakeTable.cmake;D:\cmake_practice\step11\MathFunctions\build\CMakeFiles\3.27.4\CMakeCCompiler.cmake;D:\cmake_practice\step11\MathFunctions\build\CMakeFiles\3.27.4\CMakeCXXCompiler.cmake;D:\cmake_practice\step11\MathFunctions\build\CMakeFiles\3.27.4\CMakeRCCompiler.cmake;D:\cmake_practice\step11\MathFunctions\build\CMakeFiles\3.27.4\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\cmake_practice\step11\MathFunctions\build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/cmake_practice/step8/MathFunctions/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/cmake_practice/step11/MathFunctions/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SD:/cmake_practice/step8/MathFunctions -BD:/cmake_practice/step8/MathFunctions/build --check-stamp-file D:/cmake_practice/step8/MathFunctions/build/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/cmake_practice/step11/MathFunctions -BD:/cmake_practice/step11/MathFunctions/build --check-stamp-file D:/cmake_practice/step11/MathFunctions/build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -289,12 +233,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\WindowsPaths.cmake;D:\cmake_practice\step8\MathFunctions\MakeTable.cmake;D:\cmake_practice\step8\MathFunctions\build\CMakeFiles\3.27.4\CMakeCCompiler.cmake;D:\cmake_practice\step8\MathFunctions\build\CMakeFiles\3.27.4\CMakeCXXCompiler.cmake;D:\cmake_practice\step8\MathFunctions\build\CMakeFiles\3.27.4\CMakeRCCompiler.cmake;D:\cmake_practice\step8\MathFunctions\build\CMakeFiles\3.27.4\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\cmake_practice\step8\MathFunctions\build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.27\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\WriteBasicConfigVersionFile.cmake;D:\cmake_practice\step11\MathFunctions\Config.cmake.in;D:\cmake_practice\step11\MathFunctions\MakeTable.cmake;D:\cmake_practice\step11\MathFunctions\build\CMakeFiles\3.27.4\CMakeCCompiler.cmake;D:\cmake_practice\step11\MathFunctions\build\CMakeFiles\3.27.4\CMakeCXXCompiler.cmake;D:\cmake_practice\step11\MathFunctions\build\CMakeFiles\3.27.4\CMakeRCCompiler.cmake;D:\cmake_practice\step11\MathFunctions\build\CMakeFiles\3.27.4\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\cmake_practice\step11\MathFunctions\build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/cmake_practice/step8/MathFunctions/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/cmake_practice/step11/MathFunctions/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SD:/cmake_practice/step8/MathFunctions -BD:/cmake_practice/step8/MathFunctions/build --check-stamp-file D:/cmake_practice/step8/MathFunctions/build/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/cmake_practice/step11/MathFunctions -BD:/cmake_practice/step11/MathFunctions/build --check-stamp-file D:/cmake_practice/step11/MathFunctions/build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -302,12 +246,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\WindowsPaths.cmake;D:\cmake_practice\step8\MathFunctions\MakeTable.cmake;D:\cmake_practice\step8\MathFunctions\build\CMakeFiles\3.27.4\CMakeCCompiler.cmake;D:\cmake_practice\step8\MathFunctions\build\CMakeFiles\3.27.4\CMakeCXXCompiler.cmake;D:\cmake_practice\step8\MathFunctions\build\CMakeFiles\3.27.4\CMakeRCCompiler.cmake;D:\cmake_practice\step8\MathFunctions\build\CMakeFiles\3.27.4\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\cmake_practice\step8\MathFunctions\build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.27\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\WriteBasicConfigVersionFile.cmake;D:\cmake_practice\step11\MathFunctions\Config.cmake.in;D:\cmake_practice\step11\MathFunctions\MakeTable.cmake;D:\cmake_practice\step11\MathFunctions\build\CMakeFiles\3.27.4\CMakeCCompiler.cmake;D:\cmake_practice\step11\MathFunctions\build\CMakeFiles\3.27.4\CMakeCXXCompiler.cmake;D:\cmake_practice\step11\MathFunctions\build\CMakeFiles\3.27.4\CMakeRCCompiler.cmake;D:\cmake_practice\step11\MathFunctions\build\CMakeFiles\3.27.4\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\cmake_practice\step11\MathFunctions\build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/cmake_practice/step8/MathFunctions/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/cmake_practice/step11/MathFunctions/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SD:/cmake_practice/step8/MathFunctions -BD:/cmake_practice/step8/MathFunctions/build --check-stamp-file D:/cmake_practice/step8/MathFunctions/build/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/cmake_practice/step11/MathFunctions -BD:/cmake_practice/step11/MathFunctions/build --check-stamp-file D:/cmake_practice/step11/MathFunctions/build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -315,25 +259,20 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\WindowsPaths.cmake;D:\cmake_practice\step8\MathFunctions\MakeTable.cmake;D:\cmake_practice\step8\MathFunctions\build\CMakeFiles\3.27.4\CMakeCCompiler.cmake;D:\cmake_practice\step8\MathFunctions\build\CMakeFiles\3.27.4\CMakeCXXCompiler.cmake;D:\cmake_practice\step8\MathFunctions\build\CMakeFiles\3.27.4\CMakeRCCompiler.cmake;D:\cmake_practice\step8\MathFunctions\build\CMakeFiles\3.27.4\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\cmake_practice\step8\MathFunctions\build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.27\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\WriteBasicConfigVersionFile.cmake;D:\cmake_practice\step11\MathFunctions\Config.cmake.in;D:\cmake_practice\step11\MathFunctions\MakeTable.cmake;D:\cmake_practice\step11\MathFunctions\build\CMakeFiles\3.27.4\CMakeCCompiler.cmake;D:\cmake_practice\step11\MathFunctions\build\CMakeFiles\3.27.4\CMakeCXXCompiler.cmake;D:\cmake_practice\step11\MathFunctions\build\CMakeFiles\3.27.4\CMakeRCCompiler.cmake;D:\cmake_practice\step11\MathFunctions\build\CMakeFiles\3.27.4\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\cmake_practice\step11\MathFunctions\build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="D:\cmake_practice\step8\MathFunctions\mysqrt.cpp" />
-    <ClInclude Include="D:\cmake_practice\step8\MathFunctions\build\Table.h" />
+    <ClCompile Include="D:\cmake_practice\step11\MathFunctions\mysqrt.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="D:\cmake_practice\step8\MathFunctions\build\ZERO_CHECK.vcxproj">
-      <Project>{FE505D00-E8AD-32B5-A067-5B1DC868B8FE}</Project>
+    <ProjectReference Include="D:\cmake_practice\step11\MathFunctions\build\ZERO_CHECK.vcxproj">
+      <Project>{F46AEBBC-2D14-3891-93A7-0BE4E8A265B3}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-    </ProjectReference>
-    <ProjectReference Include="D:\cmake_practice\step8\MathFunctions\build\MakeTable.vcxproj">
-      <Project>{FC8975A3-DE4D-3A1C-B984-1491B678004F}</Project>
-      <Name>MakeTable</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

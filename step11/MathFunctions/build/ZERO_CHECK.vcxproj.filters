@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="D:\cmake_practice\step8\MathFunctions\build\CMakeFiles\148edadfd88dd086e7da354a851b2188\generate.stamp.rule">
+    <CustomBuild Include="D:\cmake_practice\step11\MathFunctions\build\CMakeFiles\a46e4695095d993ee5cbfc4d24e386e7\generate.stamp.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{2C0270F1-EF0F-3041-85B2-46F9F478C8EA}</UniqueIdentifier>
+      <UniqueIdentifier>{28B4D885-AD95-3D1B-8847-2AA978C60C87}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

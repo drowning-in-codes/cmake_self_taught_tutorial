@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="D:\cmake_practice\step8\MathFunctions\MakeTable.cxx">
+    <ClCompile Include="D:\cmake_practice\step11\MathFunctions\MakeTable.cxx">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\cmake_practice\step8\MathFunctions\CMakeLists.txt" />
+    <CustomBuild Include="D:\cmake_practice\step11\MathFunctions\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{49A51895-E202-3C9C-AF4C-5E02D6AF902F}</UniqueIdentifier>
+      <UniqueIdentifier>{D27F2C15-8AF1-36DF-BC10-E739D103CCED}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
